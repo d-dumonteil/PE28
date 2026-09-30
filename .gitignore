@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Environnements virtuels
+venv/
+env/
+.venv/
+
+# Données volumineuses (ne pas commiter de raw data)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Checkpoints et modèles
+*.pt
+*.pth
+*.h5
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS / OS
+.DS_Store
